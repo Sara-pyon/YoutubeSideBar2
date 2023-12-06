@@ -22,4 +22,4 @@ const i=[{title:""},{title:"Library"},{title:"Settings"}];document.querySelector
                 </ul>
             </div>
     `}),document.querySelector(".sidebar__menu-all").innerHTML=c;const a=document.getElementById("sidebar"),o=document.getElementById("sidebar-toggle");a&&o&&o.addEventListener("click",()=>{a.classList.toggle("sidebar-show")});const n=document.querySelectorAll(".sidebar__item");function r(){n.forEach(i=>i.classList.remove("active")),this.classList.add("active")}n.forEach(i=>i.addEventListener("click",r));
-//# sourceMappingURL=youtubeSideBar.98d88adb.js.map
+//# sourceMappingURL=youtubeSideBar.578f08ca.js.map
